@@ -23,6 +23,7 @@ _dir="gz-common-ignition-common3_${pkgver}"
 prepare() {
   cd "$srcdir/$_dir"
   patch -p1 < ../missing-include-cstring.patch
+  patch -p1 < ../../missing-include-cstdint.patch
 }
 
 build() {

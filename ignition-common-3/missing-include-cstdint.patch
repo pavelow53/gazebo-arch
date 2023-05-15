@@ -1,0 +1,12 @@
+diff --git a/profiler/src/ProfilerImpl.hh b/profiler/src/ProfilerImpl.hh
+index 82d3dda..70f94b4 100644
+--- a/profiler/src/ProfilerImpl.hh
++++ b/profiler/src/ProfilerImpl.hh
+@@ -19,6 +19,7 @@
+ #define GZ_COMMON_PROFILERIMPL_HH_
+ 
+ #include <string>
++#include <cstdint>
+ 
+ namespace ignition
+ {
